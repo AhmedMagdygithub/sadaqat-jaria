@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Test</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="master.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="donation">
+      صدقةٌ جاريةٌ على روحِ دُنيا محمد أحمد ، "اللهم اغفرْ لها وارحمْها، وعافِها
+      واعفُ عنها ، وأكرمْ نزلَها، ووسِّع مدخلَها ، واغسلْها بالماءِ والثلجِ
+      أوالبَرَد ، ونقِّها من الذنوبِ والخطايا كما يُنقَّى الثوبُ الأبيضُ من
+      الدنس. اللهم جازِها بالحسناتِ إحساناً ، وبالسيئاتِ عفواً وغفراناً ، اللهم
+      أدخلْها الجنةَ بغيرِ حسابٍ ولا سابقةِ عذابٍ ، ونسألكَ اللهم أن تشملَنا
+      وإيَّاها برحمتك الواسعة."
+    </div>
+    <fieldset class="field">
+      <legend class="legend">Electronic Tasbeeh</legend>
+      <div class="container">
+        <label class="label" for="tasbeeh-select">Select Tasbeeh</label>
+        <select class="tasbeeh-select" id="tasbeeh-select">
+          <option value="سبحان الله">سبحان الله</option>
+          <option value="الحمد لله">الحمد لله</option>
+          <option value="الله أكبر">الله أكبر</option>
+          <option value="سبحان الله وبحمده">سبحان الله وبحمده</option>
+          <option value="سبحان الله العظيم">سبحان الله العظيم</option>
+          <option value="أستغفر الله">أستغفر الله</option>
+          <option value="أستغفر الله">لا حول ولا قوة الا بالله</option>
+        </select>
+        <button class="count-button button">Count</button>
+        <button class="reset-button button">Reset</button>
+      </div>
+      <div class="result">
+        <p class="result-text">Count: <span id="counter">0</span></p>
+      </div>
+    </fieldset>
+
+    <footer>&copy; Created By `Ahmed Magdy`</footer>
+  </body>
+</html>
